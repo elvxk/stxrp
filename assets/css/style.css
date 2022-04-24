@@ -25,7 +25,13 @@ body {
   font-weight: normal;
   font-style: normal;
   color: #121212; }
-
+  html {
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
 * {
   margin: 0;
   padding: 0;
